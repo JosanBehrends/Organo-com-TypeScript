@@ -1,4 +1,3 @@
-import React from 'react'
 import { Icolaborador } from '../../compartilhado/interfaces/IColaborador'
 import Colaborador from '../Colaborador'
 import './Time.css'
