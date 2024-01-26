@@ -1,3 +1,4 @@
+import React from 'react'
 import { Icolaborador } from '../../compartilhado/interfaces/IColaborador'
 import Colaborador from '../Colaborador'
 import './Time.css'
@@ -19,7 +20,7 @@ const Time = ({ corPrimaria, corSecundaria, nome, colaboradores} :TimeProps) => 
                 {colaboradores.map( colaborador => <Colaborador corDeFundo={corPrimaria} key={colaborador.nome} nome={colaborador.nome} cargo={colaborador.cargo} imagem={colaborador.imagem}/> )}
             </div>
         </section> 
-        : ''
+        : <></>
     )
 }
 
